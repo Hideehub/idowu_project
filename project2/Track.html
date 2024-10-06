@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Track Shipment</title>
+		<style type="text/css">
+			{*
+				padding:0px;
+				margin:0px;
+				box-sizing:border-box;
+			*}
+		
+			.box1{
+				min-height:400px;
+				background-image:url(images/wallpaper.jpg);
+				background-size:cover;
+				background-position:left-bottom;
+				}
+				
+			.box1 h1{
+				font-size:1.8em;
+				font-family:cookie;
+				padding:0 20px;
+				color:white;
+			}
+				
+			.logo{
+				min-height:100%; display:flex;
+				justify-content:space-between;
+				color:white;
+				align-items:center;
+				background-color:rgba(0,0,0,0.5);
+			}
+			.links li{
+				display:inline-block;
+			}
+			
+			.links{
+				list-style-type:none;
+				min-height:100%;
+				position:fixed;
+				top:0px;
+				left:400px;
+				padding-top:20px;
+				
+				
+			}
+			
+			.links li a{
+				color:white;
+				text-decoration:none;
+				padding:0px 20px;
+				font-size:1.2em;
+			}
+			
+			#text{
+				text-align:center;
+				min-height:inherit;
+				background:rgba(0,0,0,0.6);
+				color:white;
+				justify-content:center;display:flex;
+				flex-direction:column;
+			}
+			
+			.box2{
+				min-height:300px;
+				align-items:center;
+				display:flex;
+				flex-direction:column;
+				padding:20px;
+			}
+			.form{
+				display:flex;
+				justify-content:space-between;
+			}
+			.id{
+				width:30%;
+				margin:10px;
+				padding:10px;
+			}
+			.email{
+				width:30%;
+				margin:10px;
+				padding:10px;
+			}
+			
+			input{
+				
+				padding:20px;
+				background-color:#f6f6f6;
+				border-radius:10px;
+			}
+			
+			[type="button"]{
+				margin-left:300px;
+			}
+			.box3{
+				min-height:30px;
+				background:cadetblue;
+			}
+			
+			.box3 p{
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box1">
+				<div class="logo">
+					<h1>GET IT</h1>
+					<ul class="links">
+						<li><a href="index.html">Home</li></a>
+						<li><a href="home.html">About Us</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="track.html">Track Shipment</a></li>
+				</ul>
+				</div>
+					<div id="text">
+					<h1>TRACK SHIPMENT</h1>
+					</div>		
+			</div>
+			
+			
+			
+		<div class="box2">
+				<h1>Track Your Shipment</h1>
+				<h4> To track your order please enter your Order ID in the box below and press the "Track" button. 
+			This was given to you on your receipt and in the confirmation email you should have received.</h4>
+			
+			<form method="get">
+				<div class="form">
+					<div class="id">
+					<label> Order ID</label>
+					<br><input type="text" placeholder="Found in your order confirmation Email" size="30">
+					</div>
+					<div class="email">
+					<label>Billing Email </label>
+					<br><input type="email" placeholder="Email you used during your checkout" size="30">
+					</div>
+					
+				</div>
+					<input type="button" value="Track"> 
+			</form>
+		</div>
+			
+		
+			<div class="box3">
+			
+						<p id="contact"> copyright 2024</p>
+				
+			
+			</div>	
+		
+		</div>
+	</body>
+	
+</html>
